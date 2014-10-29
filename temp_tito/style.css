@@ -1,16 +1,16 @@
 /*
-Theme Name: GBS Ready
+Theme Name: GBS
 Theme URI: 
 Author: AZIF
 Author URI: 
 Description: Theme created for GBS
-Version: 1.1
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: 
 Text Domain: 
 
-Just for GBS 2014/2015
+Just for Olimpiade VIII KM ITB
 */
 
 @font-face{
@@ -28,7 +28,7 @@ html,body{
     width: 100%;
 	margin: 0px;
 	padding: 0px;
-	font-family: droid;
+	font-family: themeboy;
 	font-size: 100%;
 	background: #dddddd;
 }
@@ -36,7 +36,7 @@ html,body{
 #footer{
 	clear:both;
 	bottom:0;
-	margin-top: 50px;
+	margin-top: 100px;
 	width: 100%;
 }
 
@@ -96,66 +96,6 @@ a{
 	float:left;
 	width:40%;
 	text-align:center;
-}
-
-.subheader{
-	padding: 15px;
-	height: 27%;
-	background-color:#CE0000;
-}
-
-.butt_subh{
-	margin: 10px;
-	text-align: center;
-}
-
-.butt_subh a{
-	color: white;
-}
-
-#buttleft a:hover{
-	color: yellow;
-}
-
-#weekschedule-inner{
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	background: #eeeeee;
-	height: 88% !important;
-	overflow: auto;
-	color: #333;
-}
-
-.dayschedule{
-	position: relative;
-	top: 11%;
-	height: 60%;
-	width: 14%;
-	float: left;
-	border-right: solid #ccc;
-	display: block;
-	box-sizing: berder-box;
-	word-wrap: break-word;
-	text-align: center;
-	margin: auto;
-	padding-bottom: 2%;
-}
-
-.schlast{
-	border-right: none !important;
-}
-
-.dayslast{
-	border-right: none !important;
-}
-
-.dayschedule a{
-	text-decoration: none;
-	color: black;
-}
-
-.dayschedule p{
-	margin: 0;
 }
 
 .newsshort{
@@ -220,8 +160,8 @@ a{
 
 #header #logo{
 	position: absolute;
-	top: 13%;
-	left: 10%;
+	top: 10%;
+	left: 12%;
 	width: 12%;
 	height:auto;
 }
@@ -260,9 +200,6 @@ a{
 	color: white;
 	padding: 4%;
 	font-family: droid;
-	-moz-border-radius: 10px !important;
-    -webkit-border-radius: 10px !important;
-    border-radius:10px !important;
 }
 
 .klasemen th{
@@ -318,13 +255,7 @@ tbody .peringkat1, tbody .peringkat2{
 }
 
 button{
-	background:#eee;
-	padding: 5px 10px 5px 10px;
-	font-size: 20px;
-	-moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius:10px;
-    width: auto;
+	background:#fff;
 }
 
 #klasementabel1 td, th{
@@ -356,7 +287,6 @@ button{
 	width:90% !important;
 	position:relative !important;
 	padding: 0px;
-	height: auto;
 }
 
 #datatim > img{
@@ -446,11 +376,6 @@ font-weight:bolder;
 }
 .pemainstatnama td{
 	padding: 0.5%;
-}
-
-.maintitle{
-	width:100%;
-	background-color: #CE0000 !important;
 }
 
 
@@ -550,7 +475,7 @@ font-weight:bolder;
 
 #allnews{
 	position: relative;
-	height: auto;
+	float:none;
 	display: block;
 	width: 100%;
 }
@@ -560,6 +485,7 @@ font-weight:bolder;
 
  #sidebar{
  	padding-top: 5%;
+ 	float:none;
  	width: 100%;
 	height: 100%;
  	display: block;
@@ -569,11 +495,4 @@ font-weight:bolder;
 	font-size: 100%;
 
 }
-
-.dayschedule{
-	width: 100%;
-	float: none;
-	font-size: 80%;
-}
-
 }

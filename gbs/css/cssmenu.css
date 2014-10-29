@@ -1,10 +1,10 @@
 #cssmenu {
-  position: absolute;
+  position: fixed;
   width: 100%;
-  top: 20%;
-  left: 35%;
-  right: 7%;
-  height: 3%;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  height: 4%;
   background: #fff;
   width: auto;
   z-index: 100;
@@ -68,7 +68,7 @@
 #cssmenu > ul > li > a {
   font-size: 150%;
   font-weight: bold;
-  padding: 20% 15%;
+  padding: 8% 8%;
   color:#fff;
   text-transform: uppercase;
   -webkit-transition: color 0.25s ease-out;

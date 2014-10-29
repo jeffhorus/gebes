@@ -1,0 +1,57 @@
+.jdwl-list-elmt{
+	padding: 25px;
+	width: 800px;
+	border: 6px solid;
+	border-radius: 25px;
+	background: #8F8F8F;
+	position: relative;
+	z-index: 0;
+	
+}
+.jdwl-list-p{
+	text-align: center;
+	position: relative;
+}
+.sad{
+	font-size: 
+}
+.parallelogram { 
+	width: 150px; 
+	height: 30px;
+	z-index: -1;
+	position: relative;
+	border: 3px solid;
+	border-color: black;
+	-webkit-transform: skew(20deg); 
+	-moz-transform: skew(20deg); 
+	-o-transform: skew(20deg); 
+	background: red; 
+	display:block;
+}
+.jdwl-list-logo-himp{
+	padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+	position: relative;
+	height: 80px;
+		
+	
+	z-index: -1;
+
+}
+.jdwl-list-vs{
+	height:40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kiri{
+	float: left;
+}    
+.kanan{
+	float: right;
+}
+.tengah{
+	text-align: center;
+}

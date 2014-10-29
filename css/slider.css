@@ -1,115 +1,64 @@
-/* jssor slider thumbnail navigator skin 11 css */
-/*
-.jssort11 .p            (normal)
-.jssort11 .p:hover      (normal mouseover)
-.jssort11 .pav          (active)
-.jssort11 .pav:hover    (active mouseover)
-.jssort11 .pdn          (mousedown)
-*/
-.jssort11
-{
-	font-family: Arial, Helvetica, sans-serif;
-}
-.jssort11 .i, .jssort11 .pav:hover .i
-{
-	position: absolute;
-	top:3px;
-	left:3px;
-	WIDTH: 60px;
-	HEIGHT: 30px;
-	border: white 1px dashed;
-}
-* html .jssort11 .i
-{
-	WIDTH /**/: 62px;
-	HEIGHT /**/: 32px;
-}
-.jssort11 .pav .i
-{
-	border: white 1px solid;
-}
-.jssort11 .t, .jssort11 .pav:hover .t
-{
-	text-align: left !important;
-	position: absolute;
-	top: 8px;
-	left:  75px;
-	width:129px;
-	height: 32px;
-	line-height:17px;
-	color:#fc9835;
-	font-size:18px;
-	font-weight:700;
-}
-.jssort11 .pav .t, .jssort11 .phv .t, .jssort11 .p:hover .t
-{
-	color:#fff;
-}
-.jssort11 .c, .jssort11 .pav:hover .c
-{
-	text-align: left !important;
-	position: absolute;
-	top: 25px;
-	left: 3px;
-	width:197px;
-	height: 40px;
-	line-height:31px;
-	color:#fff;
-	font-size:14px;
-	font-weight:400;
-	overflow: hidden;
-}
-.jssort11 .pav .c, .jssort11 .phv .c, .jssort11 .p:hover .c
-{
-	color:#fc9835;
-}
-.jssort11 .t, .jssort11 .c
-{
-	transition: color 2s;
-	-moz-transition: color 2s;
-	-webkit-transition: color 2s;
-	-o-transition: color 2s;
-}
-.jssort11 .p:hover .t, .jssort11 .phv .t, .jssort11 .pav:hover .t, .jssort11 .p:hover .c, .jssort11 .phv .c, .jssort11 .pav:hover .c
-{
-	transition: none;
-	-moz-transition: none;
-	-webkit-transition: none;
-	-o-transition: none;
-}
-.jssort11 .p
-{
-	background:#181818;
-}
-.jssort11 .pav, .jssort11 .pdn
-{
-	background:#462300;
-}
-.jssort11 .p:hover, .jssort11 .phv, .jssort11 .pav:hover
-{
-	background:#333;
-}
 
-#slidercap{
-	position:absolute; left:20px; bottom: 20px; width:300px; height:30px;
-}
+        .captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+        	font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(img/loading.png);
+        }
 
-<!-- Bullet Navigator Skin Begin -->
-/* jssor slider bullet navigator skin 03 css */
-/*
-.jssorb03 div           (normal)
-.jssorb03 div:hover     (normal mouseover)
-.jssorb03 .av           (active)
-.jssorb03 .av:hover     (active mouseover)
-.jssorb03 .dn           (mousedown)
-*/
-.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av
-{
-	background: url(<?php echo get_bloginfo('template_url'); ?>/img/b03.png) no-repeat;
-	overflow:hidden;
-	cursor: pointer;
-}
-.jssorb03 div { background-position: -5px -4px; }
-.jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
-.jssorb03 .av { background-position: -65px -4px; }
-.jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+    .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av
+            {
+                filter: alpha(opacity=70);
+                opacity: .7;
+                overflow:hidden;
+                cursor: pointer;
+                border: #000 1px solid;
+            }
+            .jssorb01 div { background-color: gray; }
+            .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+            .jssorb01 .av { background-color: #fff; }
+            .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+            .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(<?php bloginfo('template_url');?>/img/a17.png) no-repeat;
+                overflow:hidden;
+            }
+            .jssora05l { background-position: -10px -40px; }
+            .jssora05r { background-position: -70px -40px; }
+            .jssora05l:hover { background-position: -130px -40px; }
+            .jssora05r:hover { background-position: -190px -40px; }
+            .jssora05ldn { background-position: -250px -40px; }
+            .jssora05rdn { background-position: -310px -40px; }
